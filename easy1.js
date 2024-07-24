@@ -9,3 +9,4 @@ console.log(removeDuplicates(arr)); // 輸出: [1, 2, 3, 4, 5]
 function removeDuplicates(array) {
     return Array.from(new Set(array));
 }
+// poc
