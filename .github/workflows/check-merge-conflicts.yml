@@ -4,7 +4,7 @@ on:
     branches:
       - main
   pull_request_target:
-    types: [ synchronize, opened ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   auto-label:
